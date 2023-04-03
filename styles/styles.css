@@ -1,3 +1,16 @@
+:root {
+    --main-gray: #898989;
+    --main-white: #e5e5e5;
+    --main-red: #f64348;
+    --dark-black: #1f1f1f;
+    --dark-grafitti: #343434;
+    --dark-gray: #404040;
+
+    --font-color-white: rgba(#fff, 0.96);
+    --font-color-wlight: rgba(#fff, 0.67);
+    --font-color-wlighter: rgba(#fff, 0.45);
+}
+
 .header-nav {
     height: 75px;
 }
