@@ -11,10 +11,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark bg-gradient fixed-top header-nav">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-black bg-gradient text-white fixed-top header-nav">
             <div class="container-fluid header-nav-container">
                 <div>
-                    <a class="navbar-brand" style="color: var(--main-white);" href="#main-start">
+                    <a class="navbar-brand" href="#main-start">
                         <img src="https://yt3.googleusercontent.com/I3ckNVLPQq04aQklOnRctTEnBjf7pkppVLV7WYe4Nb4g3sge1h-2IlXAvLnRGgrMkMfL4NadPQ=s900-c-k-c0x00ffffff-no-rj" alt="Ado, a maior artista do Japão!" width="28" height="30" class="d-inline-block align-text-top">
                         Leonardo Gassen
                     </a>
@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav navbar-list">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Sobre Mim</a>
+                            <a class="nav-link" aria-current="page" href="#about-me">Sobre Mim</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Habilidades</a>
@@ -38,8 +38,8 @@
             </div>
         </nav>
     </header>
-    <main class="bg-black bg-gradient">
-        <div class="container main-intro d-flex justify-content-around text-white" id="main-start">
+    <main>
+        <div class="container-fluid main-intro d-flex justify-content-around text-white bg-black bg-gradient" id="main-start">
             <div class="row">
                 <div class="col-lg intro-title-container text-center">
                     <h2>
@@ -86,22 +86,25 @@
                 </div>
             </div>
         </div>
-        <div class="container ">
+        <div class="container-fluid full-width main-about-me text-white bg-black bg-gradient" style="font-family: var(--bs-font-monospace);" id="about-me">
             <div class="row">
-                <div class="col text-center" style="font-family: var(--bs-font-monospace);">
+                <div class="col text-center about-me-left">
                     <h1>
                         Sobre mim
                     </h1>
                     <div>
-                        <img src="" class="img-fluid" alt="">
+                        <img src="content/avatar_img.jpg" class="img-fluid image-avatar" alt="Imagem de Leonardo Gassen Sobrinho">
                     </div>
                 </div>
                 <div class="col">
                     <h3>
                         Prazer, Leonardo,
                     </h3>
-                    <p>
-                        Eu moro em Santa Cruz do Sul no Rio Grande do Sul e tenho 28 anos. Sou graduado em Engenharia Civil, porém busco uma transição de carreira para a área da tecnologia, que é o que eu realmente gosto de fazer. Atualmente estudo no Senac-RS, onde é oferecido um programa chamado RSTI, focado em desenvolvimento de Front-End. Atualmente possuo as seguintes Hard Skills: HTML, CSS e Javascript. Também usamos Bootstrap e jquery nos nossos estudos e tive muita facilidade no aprendizado, portanto acho que qualquer tecnologia apresentada conseguirei aprender com facilidade.
+                    <p class="about-me-paragraph">
+                        Eu moro em Santa Cruz do Sul no Rio Grande do Sul e tenho 28 anos. Sou graduado em Engenharia Civil, porém busco uma transição de carreira para a área da
+                         tecnologia, que é o que eu realmente gosto de fazer. Atualmente estudo no Senac-RS, onde é oferecido um programa chamado RSTI, focado em desenvolvimento
+                          de Front-End. Atualmente possuo as seguintes Hard Skills: HTML, CSS e Javascript. Também usamos Bootstrap e jquery nos nossos estudos e tive muita
+                           facilidade no aprendizado, portanto acho que qualquer tecnologia apresentada conseguirei aprender com facilidade.
                     </p>
                 </div>
             </div>

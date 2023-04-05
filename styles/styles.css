@@ -13,7 +13,7 @@
 
 .header-nav {
     height: 75px;
-}
+  }
 
 .header-nav-container {
     width: 70%;
@@ -28,6 +28,7 @@
 .main-intro {
     height: 100vh;
     align-items: center;
+
 }
 
 .intro-title-container {
@@ -163,3 +164,17 @@
   .card4:hover .envelope {
     fill: var(--main-white);
   }
+
+  .main-about-me {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+.image-avatar {
+  border-radius: 50%;
+  height: 400px;
+}
+
+.about-me-paragraph {
+  max-width: 700px;
+}
