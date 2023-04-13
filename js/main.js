@@ -1,3 +1,4 @@
+
 function wheelRedirect(id) { 
     if(id == "card1button") {
         const link = "https://www.linkedin.com/in/leonardo-gassen-sobrinho-3837b6244/";
