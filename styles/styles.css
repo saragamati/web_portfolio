@@ -278,3 +278,11 @@
 .proj_card_box:hover {
   transform: scale(0.9);
 }
+
+.falecomigo-container {
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 22px;
+}

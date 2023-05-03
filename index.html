@@ -209,9 +209,39 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid bg-black bg-gradient text-white text-center" id="contactme" style="font-family: var(--bs-font-monospace);padding-top: 50px;padding-bottom: 75px;">
+            <div style="padding-bottom: 1rem;">
+                <h1 style="font-size: 50px;">
+                    Fale Comigo
+                </h1>
+            </div>
+            <div class="container falecomigo-container">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="yourName" class="form-label">Seu nome</label>
+                        <input type="text" class="form-control" id="yourName" placeholder="João da Silva">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="emailInput" class="form-label">Seu endereço de E-mail</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="subjectInput" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="subjectInput">
+                    </div>
+                    <div class="col-12">
+                        <label for="messageField" class="form-label">Deixe sua mensagem</label>
+                        <textarea class="form-control" id="messageField" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer class="text-center container-fluid bg-black bg-gradient text-white">
-        <p>
+        <p style="margin-bottom: 0px">
             Desenvolvido por Leonardo Gassen &copy;
         </p>
     </footer>
